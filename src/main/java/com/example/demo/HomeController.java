@@ -13,7 +13,7 @@ private static Logger logger = LogManager.getLogger(HomeController.class);
 
     @GetMapping("/home")
     public String home(){
-        logger.info("home api is invoked");
+        logger.error("home api is invoked");
         return "home page";
     }
 
